@@ -1,0 +1,520 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+    margin: 0 0 400px;
+    /* bottom = footer height */
+    padding: 0;
+}
+nav {
+    background-color: rgba(2, 2, 40, 0.9) !important;
+    /*background-color: #0f52ba !important;*/
+    border: 0px  !important;
+    border-radius: 0px 0px 5px 5px;
+    width: 100% !important;
+    text-align: center !important;
+}
+
+nav img{
+    margin-top: 0px !important;
+    padding-top: 0px !important;
+    max-width: 70px !important;
+    max-height: 50px !important;
+}
+nav a {
+    color: #ffffff !important;
+}
+
+nav a:hover {
+    background-color: #555555 !important;
+}
+ 
+audio, iframe{
+    display : none;
+}
+
+#donate-btn {
+    margin-left: 50px;
+    margin-right: 10px;
+    /*width: 100px !important;*/
+    border-radius: 30px;
+}
+
+#donate-icon {
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+.navbar-toggle {
+    border-radius: 30px;
+    background-color: #000;
+}
+
+.navbar-toggle:hover {
+    background-color: #000 !important;
+}
+
+#navbar-close {
+    width: 22px;
+    height: 15px;
+    background-color: #000000;
+    color: #ffffff;
+}
+  
+  .carousel .item {
+    height: 450px;
+  }
+  
+  .item img {
+      position: absolute;
+      object-fit: cover;
+      top: 0;
+      left: 0;
+      min-height: 450px;
+  }
+
+  #intro {
+      text-align: center;
+      color: #020240;
+  }
+
+  #projects {
+      background-color: #000035;
+      padding: 30px;
+      margin: 30px;
+      border-radius: 10px;
+      color: #fff;
+  }
+
+  #projects .col-sm-6 {
+      margin-bottom: 20px;
+      padding: 10px;
+  }
+  #projects .col-sm-6:hover{
+      background-color: black;
+      color: #fff;
+      text-decoration: none;
+  }
+  #projects .col-sm-6 a{
+    color: #fff;
+  }
+  #projects .col-sm-6 a:hover{
+    color: #fff;
+    text-decoration: none;
+  }
+  #projects img{
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin: 0 10px 30px 0;
+  }
+  #projects b{
+      font-weight: 900;
+      color : #ff8c00;
+  }
+  #projects small{
+      color: #aaa;
+  }
+  #involve {
+      text-align: center !important;
+      padding: 30px;
+  }
+  #involve .row{
+      display: inline-block !important;
+  }
+  #involve .col-sm-4{
+      width: 200px;
+      height: 250px;
+      margin: 0 30px 30px 30px;
+      border-radius: 10px;
+      padding: 20px 10px 0 10px;
+      color: #000;
+  }
+  /*#involve .col-sm-4:hover{
+      width: 220px;
+      height: 270px;
+  }*/
+  #give {
+      background-color: #f08080;
+  }
+  #give:hover {
+      background-color: #f09090;
+  }
+  #volunteer {
+      background-color: #ff8c00;
+  }
+  #volunteer:hover {
+      background-color: #ff9c00;
+  }
+  #share {
+      background-color: #4682b4;
+  }
+    #share:hover {
+      background-color: #4692b4;
+  }
+
+  #team {
+    text-align: center !important;
+    padding: 30px;
+    background-color: #000035;
+    color: #fff;
+  }
+  
+  #team img{
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 100%;
+      margin-bottom: 10px;
+  }
+
+  #team .fa{
+      color: #fff;
+  }
+  #team .fa:hover{
+    color: #555;
+  }
+  
+  #partners {
+    text-align: center !important;
+    padding: 30px;
+  }
+  #partners .row{
+    display: inline-block !important;
+  }
+  #partners img{
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    /*object-fit: cover;*/
+  }
+
+
+  footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 400px;
+    width: 100% !important;
+    overflow: hidden !important;
+    /*background-color: #0f52ba;*/
+    background-color: rgba(2, 2, 16, 1.0) !important;
+    color: #ffffff;
+    padding: 20px;
+  }
+
+  footer a:hover {
+      text-decoration: none;
+  }
+
+  #newslettersubscriptionsuccess {
+    color: #00ff00;
+}
+
+  #newslettersubscriptionfail {
+      color: #ff0000;
+  }
+
+  #bottom{
+      text-align: center;
+  }
+
+  #bottom a{
+      color: #fff;
+  }
+
+  #bottom a:hover{
+    color: #555;
+}
+
+.body-2{
+    margin: 50px;
+}
+.top-image{
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+}
+.heavy-text{
+    font-weight: 900;
+}
+.thick-text{
+    font-weight: 500;
+}
+.top-text{
+    color:  #000035;
+    text-align: center;
+}
+
+.project-list{
+    text-align: left;
+}
+
+.project-list .row{
+    display: inline-block;
+}
+.project-list .col-sm-3 {
+    width: 250px;
+    height: 300px;
+    padding: 0 10px 0 10px;
+    margin: 10px 0 10px 0;
+    text-align: left;
+    /*margin: 20px;*/
+}
+
+.project-list .col-sm-3 img{
+    object-fit: cover;
+    width: 100%;
+}
+
+.project-list .heavy-text{
+    color: #ff8c00;
+}
+
+.grey-bg{
+    background-color: #eeeeee;
+}
+
+textarea{
+    resize: none;
+}
+
+.body-action{
+    text-align: center;
+}
+
+.body-action .info{
+    display: inline-block;
+    color: #020240;
+    width: 300px;
+}
+.body-action .info form{
+    text-align: left;
+}
+.body-action .info form input, .body-action .info form textarea{
+    border: 2px solid;
+}
+#messagesuccess {
+    color: #00ff00;
+}
+
+  #messagefail {
+      color: #ff0000;
+  }
+.colored-hr{
+    color: #020240;
+    background-color: #020240;
+    border-color: #020240;
+    border: 2px;
+    width: 100%;
+    height: 3px;
+}
+
+.donate-text{
+    text-decoration: none;
+    color: #ff0000;
+}
+.donate-text:hover{
+    color: #880000;
+}
+
+.body-about{
+    text-align: center;
+    padding : 20px;
+}
+
+
+.about{
+    display: inline-block;
+}
+.about-title{
+    font-weight: 700;
+}
+.about-title b{
+    width: 25px;
+}
+.about-detail{
+    font-weight: 500;
+}
+.about-detail a{
+    text-decoration: none;
+}
+.contact{
+    margin: 50px 0 50px;
+    text-align: left;
+}
+
+.donor-list{
+    font-weight: 700;
+    margin: 30px 0 30px 0;
+    color: #020240;
+}
+.donor-list p{
+    height: 30px;
+    margin-bottom: 0;
+}
+
+.donate-body{
+    background-image: url("imgs/child1.jpg");
+     /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+#donate-form{
+    display: inline-block;
+    margin: 100px 0 50px 0;
+    width: 500px !important;
+    z-index: 2;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.donate-form-body{
+    text-align: left;
+    padding: 30px;
+}
+
+.cash-btn{
+    padding-left: 0;
+    width: 80px !important;
+    height: 25px;
+    background-color: #800000;
+    color: #ffffff;
+    border: 0;
+    overflow: visible;
+    text-align: left;
+}
+.cash-btn:hover{
+    background-color: #600000;
+}
+
+#user-details a{
+    color: black;
+}
+#user-details sup{
+    color:#ee0000;
+}
+
+#email{
+    margin-top: 3px;
+    width: 260px;
+}
+
+#user-details img{
+    width: 30px;
+    height: 20px;
+}
+
+#cvc{
+    width: 70px;
+}
+
+#expm, #expy{
+    width: 50px;
+}
+
+#billing-details a{
+    color: black;
+}
+
+#billing-details input{
+    width: 250px;
+}
+
+#tandcs{
+    text-decoration: none;
+    color: #ee0000;
+}
+#tandcs:hover{
+    color: #aa0000;
+}
+#submitdonation{
+    width: 80%;
+    border: 0;
+    color: #ffffff;
+    background-color: #aa0000;
+    margin-bottom: 30px;
+    padding: 5px;
+    font-weight: 600;
+}
+
+#submitdonation:hover{
+    background-color: #600000;
+}
+
+@media only screen and (max-width: 600px) {
+    nav img{
+        padding-left: 10px;
+    }
+    body {
+      margin: 0 0 900px !important;
+      /* bottom = footer height */
+    }
+
+    .vid{
+        height: 200px;
+        width: 200px;
+    }
+    .carousel .item {
+      height: 300px !important;
+    }
+
+    .item img {
+      min-height: 300px !important;
+    }
+
+    #donate-form{
+        width: 350px !important;
+    }
+
+    .cash-btn{
+        width: 60px;
+    }
+
+    #team .bordertop{
+        border-top : 1px solid #fff !important;
+        padding-top: 10px;
+    }
+
+    footer {
+      height: 900px !important;
+      
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+    .navbar-nav {
+        width: 100%;
+        float:none;
+        margin:0 auto;
+        display: block;
+        text-align: center;
+    }
+    
+    .navbar-nav > li {
+        display: inline-block;
+        float:none;
+    }
+
+    #donate-btn {
+        margin-left: 70px !important;
+        margin-right: 0px !important;
+    }
+    #team .border{
+        border-right : 1px solid #fff !important;
+    }
+
+    .project-list .col-sm-3 {
+        width: 25%;
+    }
+  }
